@@ -16,7 +16,7 @@ The Anaconda Distribution contains all the above packages and more installed.
 
 ## Code
 
-The notebook file for this project is `new_york_taxi_fare.ipynb`. 
+The notebook file for this project is `New_York_Fare.ipynb`. 
 
 This notebook deals with the Exploratory Data Analysis and Machine Learning implementation of the New York City Taxi Fare Prediction dataset from Kaggle.
 
@@ -24,12 +24,12 @@ This notebook deals with the Exploratory Data Analysis and Machine Learning impl
 
 In a terminal or command window, run the following commands:
 ```python
-jupyter notebook new_york_taxi_fare.ipynb
+jupyter notebook New_York_Fare.ipynb.ipynb
 ```
 or
 
 ```python
-ipython notebook new_york_taxi_fare.ipynb
+ipython notebook New_York_Fare.ipynb.ipynb
 ```
 This will open the Jupyter Notebook software and project file in your web browser.
 
@@ -64,27 +64,46 @@ Dataset used in this project is `train.csv` from the [New York Taxi Fare Predict
 
 ## Visualizations
 
-#### Day of Week
+#### Heatmap
 
-![Day of week](https://github.com/sriganeshlokesh/shark_attack_analysis/blob/master/images/day_img.png)
+![Heatmap](https://github.com/sriganeshlokesh/new_york_taxi_fare_prediction/blob/master/img/Heatmap.png)
 
-Here we can observe that Saturday has the highest number of shark attacks. Since Saturday is a weekend, people tend to encounter shark attacks.
+The heatmap depicts the features which are highly correlated. From the above heatmap we can observe that pickup_latitude, pickup_longitude, dropoff_latitude, dropoff_longitude are highly correlated.
 
-#### Continent
+#### Pickup Distribution
 
-![Continent](https://github.com/sriganeshlokesh/shark_attack_analysis/blob/master/images/continent_img.png)
+![Pickup](https://github.com/sriganeshlokesh/new_york_taxi_fare_prediction/blob/master/img/Pickup.png)
 
-From the plot, we can see that Australia has the highest number of shark attacks.
+Pickup distribution gives us an idea of the highly used pickup service location. From the coordinates, we see that Manhattan has the highest number of pickups.
 
-#### Month 
+#### Dropoff Distribution 
 
-![Month](https://github.com/sriganeshlokesh/shark_attack_analysis/blob/master/images/month_img.png)
+![Dropoff](https://github.com/sriganeshlokesh/new_york_taxi_fare_prediction/blob/master/img/Dropoff.png)
 
-January has the highest number of shark attacks. The reason behind this is, In Australia, the month of january is considered to be Summer.
+Dropoff distribution gives us an idea of the frequent dropoff location. From the coordinates, we see that Manhattan has the highest number of dropoffs.
 
-#### Year
+#### Fare Amount Distribution for JFK Airport
 
-![Year](https://github.com/sriganeshlokesh/shark_attack_analysis/blob/master/images/year_img.png)
+![Fare JFK](https://github.com/sriganeshlokesh/new_york_taxi_fare_prediction/blob/master/img/Distribution%20of%20Fare%20Amount.png)
 
-As seen from the plot, 2011 has the highest number of shark attacks.
+The plot describes the fare amount to and from the airport as compared to other pickup and drop off locations. We can infer that the using the taxi service from the airport will cost more as compared to other pickup locations.
+
+#### Borough Pickup Distribution
+
+![Borough Pickup](https://github.com/sriganeshlokesh/new_york_taxi_fare_prediction/blob/master/img/Pickup%20Distribution.png)
+
+Manhattan has the highest pickup density as compared to the other 4 boroughs. This is followed by Queens.
+
+#### Borough Dropoff Distribution
+
+![Borough Dropoff](https://github.com/sriganeshlokesh/new_york_taxi_fare_prediction/blob/master/img/Dropoff%20Distribution.png)
+
+This plot is similar to the pickup distribution.Manhattan has the highest dropoff density as compared to the other 4 boroughs. This is followed by Queens.
+
+#### Borough Fare Distribution
+
+![Borough Fare](https://github.com/sriganeshlokesh/new_york_taxi_fare_prediction/blob/master/img/Borough%20Distribution.png)
+
+Here, we picturize the fare amount for the 5 boroughs. No suprise here, Manhattan has a high fare amount as compared to the other boroughs followed by Queens.
+
 
