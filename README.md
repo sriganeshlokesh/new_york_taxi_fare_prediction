@@ -9,7 +9,7 @@ This project is built using Python and the following Python libraries:
 - Matplotlib
 - folium maps
 
-As this is a ipynb file, you will need a software to run the [Jupyter Notebook](https://github.com/sriganeshlokesh/human_activity_recognition_lstm_keras/blob/master/HAR_LSTM.ipynb)
+As this is a ipynb file, you will need a software to run the [Jupyter Notebook](https://github.com/sriganeshlokesh/new_york_taxi_fare_prediction/blob/master/New_York_Taxi.ipynb)
 
 If Python is not installed on your computer, it is highly recommended to install [Anaconda Distribution](https://www.anaconda.com/distribution/)
 The Anaconda Distribution contains all the above packages and more installed.
