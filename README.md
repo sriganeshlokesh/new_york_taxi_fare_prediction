@@ -24,12 +24,12 @@ This notebook deals with the Exploratory Data Analysis and Machine Learning impl
 
 In a terminal or command window, run the following commands:
 ```python
-jupyter notebook New_York_Fare.ipynb.ipynb
+jupyter notebook New_York_Fare.ipynb
 ```
 or
 
 ```python
-ipython notebook New_York_Fare.ipynb.ipynb
+ipython notebook New_York_Fare.ipynb
 ```
 This will open the Jupyter Notebook software and project file in your web browser.
 
